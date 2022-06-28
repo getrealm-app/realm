@@ -164,6 +164,7 @@ export default function Home() {
                 <div className="py-5 px-1" style={{ maxWidth: "100%", textAlign: "center", margin: "auto" }}>
                     <h2 className='heading' style={{ color: '#b7b9c0', fontSize: 20 }}>
                         We realized that most of GenZ influencers who have less than 10,000 followers have less opportunities to monetize their Tiktok accounts. Similarly, ecommerce shop owners cannot afford big influencers to grow their online business
+                        
                     </h2>
                 </div>
             </div>
