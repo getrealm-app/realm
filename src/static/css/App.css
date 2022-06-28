@@ -1,0 +1,40 @@
+body {
+  background-color: #16141e;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilroy';
+  /* font-family: Aeonik,-apple-system,Arial,sans-serif; */
+}
+
+.heading {
+  /* font-family: Aeonik,-apple-system,Arial,sans-serif; */
+  font-family: 'Gilroy';
+}
+
+.heading-color {
+  /* font-family: Aeonik,-apple-system,Arial,sans-serif; */
+  font-family: 'Gilroy';
+  background: -webkit-linear-gradient(rgba(250, 107, 255, 0.839), rgba(193, 113, 255, 0.806));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input.heading:focus {
+  outline: none;
+}
+
+input.heading::placeholder {
+  color: gray;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.ttf');
+}
+
+
