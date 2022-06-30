@@ -152,11 +152,11 @@ export default function Home() {
                     {/* monetize your Tiktok followers */}
                 </div>
                 <div className="flex-row items-center">
-                    <Link to={'/early-access'}>
+                    <a href="https://tally.so/r/m68xPk">
                         <button
                             // onClick={() => { handleSubmit() }} 
                             style={{ backgroundColor: "#1c79ed" }} className='heading button text-lg text-white font-bold rounded-full border-none cursor-pointer pt-2 pb-2 pr-5 pl-5 m-1'>Get Early Access</button>
-                    </Link>
+                    </a>
                 </div>
             </div>
             <div className='md:w-7/12 sm:w-full px-5 pt-24' style={{ textAlign: "center", margin: "auto" }}>
@@ -265,7 +265,7 @@ export default function Home() {
                             <div class="md:p-5 p-2">
                                 <p class="mb-2 text-left">
                                     <ol class="list-decimal list-inside text-left">
-                                        <li class="mb-2">Join the waitlist <Link class="text-blue-600" to={'/early-access'}>here</Link>. Our team will notify you in a few days if you are given access to the platform already</li>
+                                        <li class="mb-2">Join the waitlist <a href="https://tally.so/r/m68xPk" class="text-blue-600" to={'/early-access'}>here</a>. Our team will notify you in a few days if you are given access to the platform already</li>
                                         <li class="mb-2">If you can already access the platform, you can start creating your profile and linking your Tiktok account</li>
                                         <li class="mb-2">You can search our list of partner businesses (sorted by requirements, industry/category, budget etc.) where you can apply for a partnership</li>
                                         {/* eligibility, category, requirements, budget */}
@@ -395,9 +395,9 @@ export default function Home() {
                         {/* <h2 className='heading text-lg text-white' style={{ fontSize: 20 }}>
                             Our goal is to support both micro-influencers and small ecommerce businesses by creating the best platform that connects the perfect influencer to the perfect business and enable them to form a win-win partnership
                         </h2> */}
-                        <Link to={'/early-access'}>
+                        <a href="https://tally.so/r/m68xPk">
                             <button style={{ color: "#1c79ed" }} className='heading button text-lg bg-white font-bold rounded-full border-none cursor-pointer pt-2 pb-2 pr-5 pl-5 m-1'>Get Early Access</button>
-                        </Link>
+                        </a>
                     </div>
                 </div>
                 <div className="md:w-7/12 mx-auto mb-12">
