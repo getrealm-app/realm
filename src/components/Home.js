@@ -1,13 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import '../static/css/App.css'
 // import realm from '../static/images/realm.png'
 import transparent from '../static/images/transparent.png'
+// import image from '../static/images/giphy.gif'
 
 export default function Home() {
     return (
 
-        <div style={{ backgroundColor: "#100e15" }}>
+        <div style={{ backgroundColor: "black" }}>
             <div className="absolute z-50 top-40 inset-x-0 flex justify-center overflow-hidden pointer-events-none">
                 <div className="w-[100rem] flex-none flex justify-end">
                     <picture>
@@ -45,10 +46,9 @@ export default function Home() {
                             <p className="logo px-2 text-2xl text-white">Realm</p>
                         </div>
                     </div>
-
                 </div>
             </div>
-            <div className="text-center md:px-10 px-4 md:py-36 py-10" style={{ backgroundColor: "#100e15" }}>
+            <div className="text-center md:px-10 px-4 md:py-36 py-10" style={{ backgroundColor: "black" }}>
                 {/* <div className="p-5">
                     <span className="text-center font-normal text-white pr-4 pl-4 pt-2 pb-2 rounded-full text-3xl" style={{ backgroundColor: "#2b2b2b", fontFamily: "Aeonik,-apple-system,Arial,sans-serif" }}>Realm</span>
                 </div> */}
@@ -159,24 +159,39 @@ export default function Home() {
                     </a>
                 </div>
             </div>
-            <div className='md:w-7/12 sm:w-full px-5 pt-24' style={{ textAlign: "center", margin: "auto" }}>
-                <h1 className='heading' style={{ color: "white", fontSize: 36 }}>Tiktok marketing is the future</h1>
+            <div className='md:w-7/12 sm:w-full px-5 pt-36' style={{ textAlign: "center", margin: "auto" }}>
+                {/* <img
+                    src={image}
+                    alt="header"
+                    className="md:w-2/12 rounded-3xl sm:w-full m-auto"
+                /> */}
+                <h1 className='heading md:text-5xl text-4xl text-white'>Tiktok marketing is the future</h1>
                 <div className="py-5 px-1" style={{ maxWidth: "100%", textAlign: "center", margin: "auto" }}>
-                    <h2 className='heading' style={{ color: '#b7b9c0', fontSize: 20 }}>
+                    <h2 className='heading md:text-2xl' style={{ color: '#b7b9c0' }}>
                         We realized that most of GenZ influencers who have less than 10,000 followers have less opportunities to monetize their Tiktok accounts. Similarly, ecommerce shop owners cannot afford big influencers to grow their online business
-                        
                     </h2>
                 </div>
+                {/* <div className="flex-row items-center py-5">
+                    <button
+                        // onClick={() => { handleSubmit() }} 
+                        className='heading button text-lg text-white font-bold rounded-full border-gray-100 border-2 cursor-pointer pt-2 pb-2 pr-5 pl-5 m-1'>Read our blog</button>
+                </div> */}
             </div>
-            <div className='md:w-7/12 sm:w-full px-5 py-24' style={{ textAlign: "center", margin: "auto" }}>
-                <h1 className='heading' style={{ color: "white", fontSize: 36 }}>We are here to connect the dots</h1>
+
+            <div className='md:w-7/12 sm:w-full px-5 py-36' style={{ textAlign: "center", margin: "auto" }}>
+                <h1 className='heading md:text-5xl text-4xl text-white' style={{ color: "white" }}>We are here to connect the dots</h1>
                 <div className="py-5 px-1" style={{ maxWidth: "100%", textAlign: "center", margin: "auto" }}>
-                    <h2 className='heading text-lg' style={{ color: '#b7b9c0', fontSize: 20 }}>
+                    <h2 className='heading md:text-2xl' style={{ color: '#b7b9c0' }}>
                         Our goal is to support both micro-influencers and small ecommerce businesses by creating the best platform that connects the perfect influencer to the perfect business so they can form a partnership that will benefit both parties
                     </h2>
                 </div>
+                {/* <div className="flex-row items-center py-5">
+                    <button
+                        // onClick={() => { handleSubmit() }} 
+                        className='heading button text-lg text-white font-bold rounded-full border-gray-100 border-2 cursor-pointer pt-2 pb-2 pr-5 pl-5 m-1'>Get Early Access</button>
+                </div> */}
             </div>
-            <div className="text-center py-8" style={{ backgroundColor: "#100e15" }}>
+            <div className="text-center py-8" style={{ backgroundColor: "black" }}>
 
                 {/* <h1 className='heading' style={{ color: "white", fontSize: 36 }}>Built for micro-influencers</h1>
                 <div className="py-5 px-2 md:w-9/12 sm:w-1/5" style={{ textAlign: "center", margin: "auto" }}>
@@ -386,7 +401,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className='md:w-7/12 w-11/12 rounded-3xl mx-auto md:mt-32 mt-20 md:px-26 px-5 md:py-12 py-6' style={{ backgroundColor: "#1c79ed" }}>
+                <div className='md:w-7/12 w-11/12 rounded-3xl mx-auto md:mt-32 mt-20 md:px-26 px-5 md:py-12 py-6 bg-gradient-to-br from-blue-700 to-blue-500'>
                     <h1 className='heading md:text-5xl text-3xl md:px-10' style={{ color: "white" }}>Become a micro-influencer and start earning money today</h1>
                     <h2 className='heading text-white pt-4 text-lg md:text-xl'>
                         No age requirement. No follower count requirement
